@@ -1,10 +1,8 @@
-import React from "react";
+import React from 'react';
 import renderer from 'react-test-renderer';
-import DashboardView from "./DashboardView";
+import DashboardView from './DashboardView';
 
 it('renders correctly', () => {
-  const tree = renderer
-    .create(<DashboardView/>)
-    .toJSON();
-  expect(tree).toMatchSnapshot();
+    const tree = renderer.create(<DashboardView />).toJSON();
+    expect(tree).toMatchSnapshot();
 });
