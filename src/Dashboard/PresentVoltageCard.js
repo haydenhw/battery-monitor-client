@@ -9,7 +9,10 @@ export default function PresentVoltageCard() {
     }, []);
 
     return (
-        <div className="data-card card mb-3">
+        <div
+            className="data-card card mb-3"
+            data-test="component-present-voltage-card"
+        >
             <div className="card-body">
                 <h2>Present</h2>
                 <div className="data-reading">
