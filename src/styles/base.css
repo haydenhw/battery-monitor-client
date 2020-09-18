@@ -1,0 +1,17 @@
+@import 'variables.css';
+@import 'colors.css';
+
+body {
+    font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title);
+}
+.v-large-font {
+    font-size: 5rem;
+}
+
+.v-view {
+    padding: 1rem;
+}
