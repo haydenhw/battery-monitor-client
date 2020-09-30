@@ -2,7 +2,7 @@
 
 exports[`renders correctly 1`] = `
 <div
-  className="data-view v-view"
+  className="data-view v-container"
 >
   <h1
     className="mb-4"

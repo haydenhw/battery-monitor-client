@@ -1,7 +1,22 @@
-.data-reading {
+
+.dashboard-view h1 {
+    font-size: 1.8rem;
+}
+
+.dashboard-reading {
     font-size: 4rem;
 }
 
-.data-card h2 {
+.dashboard-card h2 {
     font-size: 1.3rem;
+}
+
+.voltage-value {
+    color: var(--blue-600);
+}
+
+.voltage-unit {
+    font-size: 3rem;
+    margin-left: 3px;
+    color: var(--gray-700);
 }

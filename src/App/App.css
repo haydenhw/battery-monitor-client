@@ -1,0 +1,8 @@
+.app {
+    background-color: var(--gray-100);
+}
+
+.app-title h1 {
+    color: var(--gray-500);
+    font-size: 1.35rem;
+}

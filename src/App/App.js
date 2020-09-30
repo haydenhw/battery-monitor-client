@@ -1,29 +1,16 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import DashboardView from '../Dashboard/DashboardView';
-import CreateAlertsView from '../CreateAlertsView';
 import './App.css';
+import Nav from '../common/Nav';
+import Routes from '../router';
 
 function App() {
     return (
-        <Router>
-            <div className="App">
-                <div className="nav">
-                    <Link to="/" className="mr-3">
-                        Dashboard
-                    </Link>
-                    <Link to="/alerts">Alerts</Link>
-                </div>
-                <Switch>
-                    <Route exact path="/">
-                        <DashboardView />
-                    </Route>
-                    <Route path="/alerts">
-                        <CreateAlertsView />
-                    </Route>
-                </Switch>
+        <div className="app v-container">
+            <div className="app-title mb-4">
+                <h1>Battery Monitor</h1>
             </div>
-        </Router>
+            <Routes />
+        </div>
     );
 }
 
